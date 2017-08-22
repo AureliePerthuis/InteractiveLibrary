@@ -1,0 +1,11 @@
+@font-face {
+		font-family: 'Guardian Sans Cond Web';
+		src: url('../fonts/Guardian Sans Cond Web-Bold.eot');
+		src: url('../fonts/Guardian Sans Cond Web-Bold.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/Guardian Sans Cond Web-Bold.woff') format('woff'),
+			 url('../fonts/Guardian Sans Cond Web-Bold.ttf') format('truetype'),
+			 url('../fonts/Guardian Sans Cond Web-Bold.svg#Guardian Sans Cond Web') format('svg');
+		font-weight: 700;
+		font-style: normal;
+		font-stretch: normal;
+}

@@ -1,0 +1,19 @@
+.GuardianSansCond-bold{
+	font-family:"Guardian Sans Cond Web";
+	font-weight:700;
+	letter-spacing:1px;
+	text-rendering: optimizeLegibility;
+}
+
+.GuardianSans-Thin{
+	font-family:"Guardian Sans Web";
+	font-weight:100;
+	letter-spacing:1px;
+	text-rendering: optimizeLegibility;
+}
+
+.centre{text-align:center;}
+.caps{text-transform:uppercase;}
+.white{color:#FFFFFF;}
+
+

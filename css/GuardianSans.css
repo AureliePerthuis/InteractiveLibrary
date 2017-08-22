@@ -1,0 +1,48 @@
+
+@font-face {
+		font-family: 'Guardian Sans Web';
+		src: url('../fonts/Guardian Sans Web-Bold.eot');
+		src: url('../fonts/Guardian Sans Web-Bold.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/Guardian Sans Web-Bold.woff') format('woff'),
+			 url('../fonts/Guardian Sans Web-Bold.ttf') format('truetype'),
+			 url('../fonts/Guardian Sans Web-Bold.svg#Guardian Sans Web') format('svg');
+		font-weight: 700;
+		font-style: normal;
+		font-stretch: normal;
+}
+
+@font-face {
+		font-family: 'Guardian Sans Web';
+		src: url('../fonts/Guardian Sans Web-Regular.eot');
+		src: url('../fonts/Guardian Sans Web-Regular.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/Guardian Sans Web-Regular.woff') format('woff'),
+			 url('../fonts/Guardian Sans Web-Regular.ttf') format('truetype'),
+			 url('../fonts/Guardian Sans Web-Regular.svg#Guardian Sans Web') format('svg');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+}
+
+@font-face {
+		font-family: 'Guardian Sans Web';
+		src: url('../fonts/Guardian Sans Web-Light.eot');
+		src: url('../fonts/Guardian Sans Web-Light.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/Guardian Sans Web-Light.woff') format('woff'),
+			 url('../fonts/Guardian Sans Web-Light.ttf') format('truetype'),
+			 url('../fonts/Guardian Sans Web-Light.svg#Guardian Sans Web') format('svg');
+		font-weight: 300;
+		font-style: normal;
+		font-stretch: normal;
+}
+
+@font-face {
+		font-family: 'Guardian Sans Web';
+		src: url('../fonts/Guardian Sans Web-Thin.eot');
+		src: url('../fonts/Guardian Sans Web-Thin.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/Guardian Sans Web-Thin.woff') format('woff'),
+			 url('../fonts/Guardian Sans Web-Thin.ttf') format('truetype'),
+			 url('../fonts/Guardian Sans Web-Thin.svg#Guardian Sans Web') format('svg');
+		font-weight: 200;
+		font-style: normal;
+		font-stretch: normal;
+}
