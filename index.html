@@ -4,43 +4,21 @@
 <meta charset="UTF-8">
 <meta name = "viewport" content = "initial-scale=1, user-scalable=no, width=device-width">
 <title>Editor's pick</title>
-<!-- Credits -->
-<!-- Aurelie Perthuis -->
 
 <!-- Fluid Grid files -->
 <link href="js/boilerplate.css" rel="stylesheet" type="text/css">
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
 
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
--->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <script src="js/respond.min.js"></script>
-
-<!-- online js library -->
-<!--
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
--->
 
 <!-- local JS library -->
 <script type="text/javascript" src="js/jquery-1.8.3-jquery.min.js"></script>
 
 
 <!-- web fonts -->
-<link href="css/GuardianSansCond.css" rel="stylesheet" type="text/css" />
-<link href="css/GuardianSans.css" rel="stylesheet" type="text/css" />
+<link href="css/SourceSansPro.css" rel="stylesheet" type="text/css" />
 
 <!-- Base styles -->
 <link href="css/typeStyles.css" rel="stylesheet" type="text/css" />
-<link href="css/colours.css" rel="stylesheet" type="text/css" />
 <link href="css/decoration.css" rel="stylesheet" type="text/css" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
 
@@ -59,15 +37,8 @@ Do the following if you're using your customized build of modernizr (http://www.
 <body onload="page.init();page.displayChanged(true);">
 <!-- All code must be contained in this div -->
 <div class="gridContainer clearfix">
-<div id="top_keyline"></div>
-<div id="header" align="center">Bagel vs Muffin</div>
-<div id="header" align="center">Bagel vs Muffin</div>
-<div id="header_mobile" align="center">Bagel vs Muffin</div>
-<div id="header_intro_type">
-
-<!--------- Type Intro below (Writers name and surname in separate span tag for bold---------------> 
-</div>
-    
+<div id="top_keyline"></div>  
+<div id="header_mobile" align="left" class="GuardianSans-Thin">Sofi <i>vs</i> Prosper</div>
 <div id="content_container">
 
 
@@ -83,21 +54,21 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 
 
-<!-- Car1 image -->
+<!-- Card1 image -->
 <div id="car_image1" class="car_image1_small"><img src="images/image1.jpg" width="100%" height="100%"></div>
-<div id="car_name1">
-<!------------------ Type Car1 brand below ------------------------>
-Bagel
+<div id="car_name1" class="GuardianSans-Thin">
+<!------------------ Heading below ------------------------>
+Sofi <i class="VS">vs</i> Prosper
 </br></br>
 </div>
 
 
-<div class="mobile_subheader">PRICE</div>
+<div class="mobile_subheader">Interest rates</div>
 <div id="value_car1" class="copy_car1_in">
 
-<!---------------------- Type Car1 Value copy below ------------------------>
-$2-7
-A plain bagel won’t set you back too much but once you start adding all the fancy toppings like smoked salmon that’s when you will get caught out. 
+<!---------------------- Type Card1 copy below ------------------------>
+APRs for SoFi’s fixed rate personal loan start at 5.49%, and variable rate personal loan APRs start at 5.19% when you sign up for autopay. <br>
+If you’re interested in rates for any of SoFi’s other loan types, check out our reviews for student loan refinancing, parent loans and mortgages. 
   
 
 <!----- Change Car1 Value star rating below by renaming svg file --------->
@@ -110,150 +81,138 @@ A plain bagel won’t set you back too much but once you start adding all the fa
 <!----- 40stars.svg is 4 stars --------->
 <!----- 45stars.svg is 4.5 stars --------->
 <!----- 50stars.svg is 5 stars --------->
-</br><img src="images/40stars.svg"></div>
+</br><img src="images/50stars.svg"></div>
 
 
-<div class="mobile_subheader">OVERVIEW</div>
+<div class="mobile_subheader">Funding speed</div>
 <div id="driving_car1" class="copy_car1_out">
 
-<!------------------ Type Car1 Driving copy below ------------------------>
-A good bagel has the power to make an ordinary day great. It’s like a pick and mix whether you can get your base and decide on your topping to suit your needs.  
+<!------------------ Type Card1 copy below ------------------------>
+You can get personalized rates in as little as two minutes. SoFi’s application requires the standard information needed for a personal loan — contact, personal, employment and income information and documentation. A few business days after the application review is complete and the agreement is accepted, you’ll receive your funds by direct deposit.  
   
-<!----- Change Car1 Driving star rating below by renaming svg file --------->
-</br><img src="images/45stars.svg"></div>
+<!----- Change Card1 star rating below by renaming svg file --------->
+</br><img src="images/50stars.svg"></div>
 
 
-<div class="mobile_subheader">CALORIES</div>
+<div class="mobile_subheader">Reputation</div>
 <div id="technology_car1" class="copy_car1_out">
 
-<!------------------ Type Car1 Technology copy below ------------------------>
-The generic plain bagel will set you back about 257 calories. Again depending on the 
-If you get 12 grain bagels, they contain lots of seeds, ie sunflower, that contain healthy fats and will help you burn fat better.
+<!------------------ Type Card1 Reputation copy below ------------------------>
+With a solid 9.6 out of 10 from 743 reviews on Trustpilot, SoFi has an excellent reputation. Reviewers repeatedly report on SoFi’s general ease of use, speed of funding and professionalism.
  
-<!----- Change Car1 Technology star rating below by renaming svg file --------->
-</br><img src="images/40stars.svg"></div>
+<!----- Change Car1 Reputation star rating below by renaming svg file --------->
+</br><img src="images/50stars.svg"></div>
 
 
-<div class="mobile_subheader">TASTE</div>
+<div class="mobile_subheader">Lending limits</div>
 <div id="design_car1" class="copy_car1_out">
 
-<!------------------ Type Car1 Design copy below ------------------------>
-This all depends on personal preference when it comes to picking your toppings. There are lots of different options available which cater to so many more tastebuds.  
+<!------------------ Type Card1 Lending copy below ------------------------>
+Minimum: $5,000<br>
+Maximum: $100,000  
 
-<!----- Change Car1 Design star rating below by renaming svg file --------->
-</br><img src="images/40stars.svg"></div>
+<!----- Change Card1 Lending star rating below by renaming svg file --------->
+</br><img src="images/50stars.svg"></div>
 
 
-<div class="mobile_subheader">STORAGE</div>
+<div class="mobile_subheader">Fees</div>
 <div id="safety_car1" class="copy_car1_out">
 
-<!------------------ Type Car1 Safety copy below ------------------------>
-The good thing about the bagel is that if you are going to toast them then you have got a few extra days over the muffin. 
+<!------------------ Type Card1 Fees copy below ------------------------>
+You won’t pay origination or prepayment fees for a personal loan with SoFi. Late payments are assessed if your payment is more than 15 days overdue. The fee is the lesser of $5 or 4% of your payment due. 
  
 
-<!----- Change Car1 Safety star rating below by renaming svg file --------->
-</br><img src="images/40stars.svg"></div>
+<!----- Change Card1 Fees star rating below by renaming svg file --------->
+</br><img src="images/50stars.svg"></div>
 
 
 
-<!-- Car2 image -->
+<!-- Card2 image -->
 <div id="car_image2" class="car_image2_small"><img src="images/image2.jpg" width="100%" height="100%"></div>
 
 <div id="car_name2">
 
-<!------------------ Type Car2 model below ------------------------>
-Muffin
+<!------------------ Type Card2 model below ------------------------>
 
 </div>
 
 
-<div class="mobile_subheader">OVERVIEW</div>
+<div class="mobile_subheader">Interest rates</div>
 <div id="value_car2" class="copy_car2_in">
 
-<!------------------ Type Car2 Value copy below ------------------------>
+<!------------------ Type Card2 copy below ------------------------>
 
-This baked treat can be a real lunch-box favourite and perfect for a meal on the go. They are usually pretty dense and fill you up. Savoury or sweet options mean that depending on what craving you are having you can cover several needs. 
+With Prosper, the APR you’re ultimately offered can range anywhere from 5.99% to 36.00%. Prosper uses seven rating tiers to determine your interest rate range. AA is the highest tier, where your interest rate can fall anywhere from 5.99% to 15.00%.
   
 
-<!----- Change Car2 Value star rating below by renaming svg file --------->
-</br><img src="images/35stars.svg"></div>
+<!----- Change Card2 star rating below by renaming svg file --------->
+</br><img src="images/25stars.svg"></div>
 
 
-<div class="mobile_subheader">PRICE</div>
+<div class="mobile_subheader">Reputation</div>
 <div id="technology_car2" class="copy_car2_out">
 
-<!------------------ Type Car2 Technology copy below ------------------------>
-$4-5
-The average muffin doesn’t have too much of a price variance, whether you are going for choc-chip, blueberry or plain they are all about the same price. 
+<!------------------ Type Card2 copy below ------------------------>
+Prosper holds a score of 7.3 out of 10 with Trustpilot over 49 reviews. The reputation falls in the great range, with users giving high accolades to Prosper’s ease of use. 
 
-<!----- Change Car2 Technology star rating below by renaming svg file --------->
-</br><img src="images/40stars.svg"></div>
+<!----- Change Card2 star rating below by renaming svg file --------->
+</br><img src="images/25stars.svg"></div>
 
 
-<div class="mobile_subheader">CALORIES</div>
+<div class="mobile_subheader">Lending limits</div>
 <div id="design_car2" class="copy_car2_out">
 
-<!------------------ Type Car2 Design copy below ------------------------>
-The muffin has far more fat than the bagel and today’s giant bakery muffins contain from 340 to 630 calories each. 
+<!------------------ Type Card2 copy below ------------------------>
+Minimum: $2,000<br>
+Maximum: $35,000 
 
-<!----- Change Car2 Design star rating below by renaming svg file --------->
-</br><img src="images/20stars.svg"></div>
+<!----- Change Card2 star rating below by renaming svg file --------->
+</br><img src="images/25stars.svg"></div>
 
 
-<div class="mobile_subheader">TASTE</div>
+<div class="mobile_subheader">Fees</div>
 <div id="safety_car2" class="copy_car2_out">
 
-<!------------------ Type Car2 Safety copy below ------------------------>
-Unless you go to a dedicated muffin shop you normally only get 2-3 options to choose from. What can make or break a good muffin is whether or not the flavouring (e.g. berries/choc-bits) are evenly distributed throughout.  
+<!------------------ Type Card2 copy below ------------------------>
+Prosper won’t hit you with prepayment fees, but you will pay an origination fee that represents 1% to 5% of the borrowed amount. The percentage, like the interest rates, are based on your Prosper Rating. Other fees include $5 for check payments, $15 or 5% of your unpaid amount for late payments and $15 for insufficient funds or returned payments.  
 
-<!----- Change Car2 Safety star rating below by renaming svg file --------->
-</br><img src="images/35stars.svg"></div>
+<!----- Change Card2 star rating below by renaming svg file --------->
+</br><img src="images/25stars.svg"></div>
 
 
-<div class="mobile_subheader">STORAGE</div>
+<div class="mobile_subheader">Funding speed</div>
 <div id="driving_car2" class="copy_car2_out">
 
-<!------------------ Type Car2 Driving copy below ------------------------>
-Unless wrapped up well, muffins usually don’t last very long. Maybe a couple of days. They go really dry and need something to wash them down. Giving a quick zap in the microwave can definitely help give them a bit more life. 
+<!------------------ Type Card2 copy below ------------------------>
+You’ll be able to get your preapproved rates in just a few minutes. From there, you’ll need to complete a full application with verified documents. Prosper typically provides your final loan offer within seven days and disburses funds shortly after your acceptance.
   
-<!----- Change Car2 Driving star rating below by renaming svg file --------->
-</br><img src="images/35stars.svg"></div>
+<!----- Change Card2 star rating below by renaming svg file --------->
+</br><img src="images/50stars.svg"></div>
 
 
 
 
 <div id="button_holder"> 
-<div id="value_button" class="button_on">OVERVIEW</div>
-<div id="technology_button" class="button_off">PRICE</div>
-<div id="design_button" class="button_off">CALORIES</div>
-<div id="safety_button" class="button_off">TASTE</div>
-<div id="driving_button" class="button_off">STORAGE</div>
+<div id="value_button" class="button_on">Interest rates</div>
+<div id="technology_button" class="button_off">Reputation</div>
+<div id="design_button" class="button_off">Lending limits</div>
+<div id="safety_button" class="button_off">Fees</div>
+<div id="driving_button" class="button_off">Funding speed</div>
 </div>
 
 
 
 <div id="verdict_holder" class=" verdict_holder_out">
-<div id="verdict_button" class="verdict_button_off">EDITOR'S PICK</div>
+<div id="verdict_button" class="verdict_button_off">Editor's Pick</div>
 <div id="verdict_image_holder" class="verdict_image_holder_out"><img src="images/verdict.jpg" width="100%" height="100%"></div>
-<div id="verdict_copy">Bagel wins our vote!<br>
-
 <!------------------ Type Verdict copy below ------------------------>
-
+<div id="verdict_copy">SoFi won four out of five features. Is this legit?
+Yes. Our analysis is based on both lenders’ stated APR ranges, loan amounts and listed fees. Reputation is judged from an outside source that gathers user reviews. Keep in mind that SoFi has stricter eligibility requirements and evaluates multiple factors including your credit score, employment history, income and more. You must have good to excellent credit to qualify.<br><img src="images/40stars.svg">
 <b>
-<!------------------ Type Car 1 Name and Points score ------------------------>
-BAGEL: 17/20
+<!------------------ CTA ------------------------>
+<div class="bt2" align="left"><a href="https://www.sofi.com/" target="_blank" class="bt2">Apply with Sofi</a></div>
 </b> 
-<!----- Change Car1 overall star rating below by renaming svg file --------->
 
-<img src="images/45stars.svg"> 
-</br>
-<b>
-<!------------------ Type Car 1 Name and Points score ------------------------>
-MUFFIN: 15/20
-</b> 
-<!----- Change Car2 overall star rating below by renaming svg file --------->
-
-<img src="images/35stars.svg">
 </div>
 
 

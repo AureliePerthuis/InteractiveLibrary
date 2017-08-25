@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	
 });
 
-// -- BASI FUNCTION CALL
+// -- BASIC FUNCTION CALL
 var page = {
 	init: function(){
 	},
