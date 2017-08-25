@@ -9,6 +9,7 @@ Inherits styles from: global
 .gridContainer {
 	display:block;
 	width:100%;
+	background-color:#fff;
 	}
 #top_keyline {
 	position:absolute;
@@ -16,8 +17,26 @@ Inherits styles from: global
 	left:0px;
 	width:100%;
 	height:1px;
-	background-color:#d5d5d5;
+	background-color:#fff;
 }
+.bt2 {
+	width:99%;
+	height:28px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:4px;
+	border-color:#0271e1;
+	background-color:#0271e1;
+	padding-top:5px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	margin-top:15px;
+	}
 #header {
 	position:absolute;
 	top:0px;
@@ -26,53 +45,53 @@ Inherits styles from: global
 	height:0px;
 	overflow:hidden;
 	background-repeat:no-repeat;
-	font-family: "Guardian Sans Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-weight: 600;
     font-size: 22px;
 	text-align:center;
-	
+	background-color:#fff;
 }
 #header_mobile {
-	
-	padding-top:10px;
+	padding-top:12px;
 	padding-bottom: 10px;
 	overflow:hidden;
-	font-family: "Guardian Sans Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-weight: 600;
     font-size: 22px;
 	text-align:center;
+	background-color:#fff;
 }
 #header_intro_type {
 	float:left;
-	width:92%;
+	width:100%;
 	padding-left:4%;
 	padding-right:4%;
 	padding-bottom:20px;
 	height:auto;
 	color:#000;
-    font-family: "Guardian Sans Web", sans-serif;
+    font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Light;
-	font-weight: 300;
+	font-weight: 500;
     font-size: 22px;
 	text-align:center;
 }
 .header_intro_name {
 	width:100%;
 	color:#000;
-    font-family: "Guardian Sans Web", sans-serif;
+    font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
     font-size: 22px;
 	text-align:center;
 }
 #content_container {
-	float:left;
-	width:92%;
-	margin-left:4%;
-	margin-right:4%;
+	float:center;
+	width:100%;
+    font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	margin-left:0%;
+	margin-right:0%;
 	margin-bottom:16px;
-	height:auto;
-	background-color:#FFF;
+	background-color:#Fff;
 }
 #button_holder {
 	position: absolute;
@@ -83,13 +102,13 @@ Inherits styles from: global
 	overflow:hidden;
 }
 .car_image1_small {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
-	background-color:#FFF;
+	background-color:#Fff;
 }
 .car_image2_small {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
 	background-color:#FFF;
@@ -180,12 +199,12 @@ Inherits styles from: global
 	float:left;
 	width:100%;
 	height:auto;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
-	font-size: 19px;
+	font-size: 15px;
 	line-height:16px;
-	color:#666;
+	color:#Fff;
 	text-align: center;
 	margin-bottom:10px;
 	text-transform: uppercase;
@@ -194,73 +213,78 @@ Inherits styles from: global
 	float:left;
 	width:100%;
 	height:auto;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
 	font-size: 19px;
 	line-height:16px;
-	color:#666;
+	color:#fff;
 	text-align: center;
 	margin-bottom:10px;
 	text-transform: uppercase;
 }
 .copy_car1_in {
-	float:left;
-	width:96%;
-	margin-left:2%;
-	margin-right:2%;
+	float:center;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 	height:auto;
 	margin-bottom:16px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 	text-align:center;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0.7s;
 }
 .copy_car1_out {
-	float:left;
-	width:96%;
-	margin-left:2%;
-	margin-right:2%;
+	float:center;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 	height:auto;
 	margin-bottom:16px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 	text-align:center;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
 }
 .copy_car2_in {
-	float:left;
-	width:96%;
-	margin-left:2%;
-	margin-right:2%;
+	float:center;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 	height:auto;
 	margin-bottom:16px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 	text-align:center;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0.7s;
 }
 .copy_car2_out {
-	float:left;
-	width:96%;
-	margin-left:2%;
-	margin-right:2%;
+	float:center;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 	height:auto;
 	margin-bottom:16px;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	color:#000000;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 	text-align:center;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
 }
 .verdict_holder_out {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
 	z-index:10;
@@ -268,7 +292,7 @@ Inherits styles from: global
 	transition: all 0.5s ease-in-out 0s;
 }
 .verdict_holder_in {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
 	background-color:#FFF;
@@ -279,11 +303,11 @@ Inherits styles from: global
 .verdict_button_off {
 	float:left;
 	width:100%;
-	height:34px;
+	height:29px;
 	background-color:#000;
 	overflow:hidden;
 	padding-top:11px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
 	font-size: 22px;
@@ -300,7 +324,7 @@ Inherits styles from: global
 	background-color:#000;
 	overflow:hidden;
 	padding-top:11px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
 	font-size: 22px;
@@ -310,13 +334,13 @@ Inherits styles from: global
 	margin-right:auto;
 }
 .verdict_image_holder_out {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
 	background-color:#FFF;
 }
 .verdict_image_holder_in {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
 	background-color:#FFF;
@@ -340,30 +364,30 @@ Inherits styles from: global
 }
 
 #verdict_copy {
-	float:left;
-	width:92%;
+	float:center;
+	width:80%;
+	margin-left:9%;
+	margin-right:10%;
 	height:auto;
-	padding-top:16px;
-	padding-bottom:16px;
-	padding-right:4%;
-	padding-left:4%;
-	background:#FFF;
+	margin-bottom:16px;
 	color:#000000;
-	font-family: "Guardian Sans Web", sans-serif;
-	font-weight: 700;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 	text-align:center;
+	background-color: #fff;
 }
 .mobile_subheader {
-	float:left;
+	float:center;
 	width:100%;
 	height:auto;
-	font-family: "Guardian Sans Web", sans-serif;
-	font-style: Bold;
-	font-weight: 700;
-    font-size: 18px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+    font-size: 14px;
+	line-height: 1.7;
 	text-align:center;
-	color:#999;
+	color:#000;
 	overflow:hidden;
 	text-transform: uppercase;
 }

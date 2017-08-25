@@ -8,7 +8,7 @@ Inherits styles from: global/mobile/650w
 
 .gridContainer {
 	width:768px;
-	height:916px;
+	height:680px;
 	overflow:hidden;
 	background-color:#F1F2F4;
 }
@@ -20,14 +20,46 @@ Inherits styles from: global/mobile/650w
 	height:1px;
 	background-color:#000;
 }
+	
+	.VS {
+	position: relative;
+	overflow:hidden;
+	padding-top:11px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 18px;
+	color:#0271e1;
+}
+.bt2 {
+	width:170px;
+	height:27px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:4px;
+	border-color:#0271e1;
+	background-color:#0271e1;
+	overflow:hidden;
+	padding-top:10px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:auto;
+	}
 #header {
 	position:absolute;
-	top:46px;
+	top:16px;
 	left:66px;
 	width:636px;
-	height:150px;
+	height:40px;
 	background-repeat:no-repeat;
-	font-family: "Guardian Sans Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-weight: 600;
     font-size: 62px;
 	text-align:center;
@@ -43,16 +75,16 @@ Inherits styles from: global/mobile/650w
 }
 #header_intro_type {
 	float:none;
-	padding-left:0px;
+	padding-left:10px;
 	padding-right:0px;
 	padding-bottom:0px;
 	position:absolute;
-	top:124px;
-	left:66px;
-	width:636px;
+	top:24px;
+	left:20px;
+	width:600px;
 	height:auto;
 	color:#000;
-    font-family: "Guardian Sans Web", sans-serif;
+    font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Light;
 	font-weight: 300;
     font-size: 22px;
@@ -61,7 +93,7 @@ Inherits styles from: global/mobile/650w
 .header_intro_name {
 	width:100%;
 	color:#000;
-    font-family: "Guardian Sans Web", sans-serif;
+    font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
     font-size: 22px;
@@ -73,12 +105,12 @@ Inherits styles from: global/mobile/650w
 	margin-right:0px;
 	margin-bottom:0px;
 	position:absolute;
-	top:172px;
+	top:32px;
 	left:16px;
 	width:740px;
 	height:628px;
 	overflow:hidden;
-	background-color:#FFF;
+	background-color:#F1F2F4;
 }
 #button_holder {
 	position: absolute;
@@ -94,14 +126,15 @@ Inherits styles from: global/mobile/650w
 	border-style:solid;
 	border-width:1px;
 	border-radius:4px;
-	border-color:#CCC;
+	border-color:#0271e1;
+	background-color:#F5f5f5;
 	overflow:hidden;
 	padding-top:10px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
-	font-style: Bold;
-	font-weight: 700;
-	font-size: 19px;
-	color:#CCC;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color:#0271e1;
 	text-align: center;
 	margin-top:4px;
 	margin-left:auto;
@@ -110,23 +143,23 @@ Inherits styles from: global/mobile/650w
 	transition: all 0.5s ease-in-out 0s;
 }
 .button_off:hover {
-	opacity:.7;
+	opacity:.3;
 }
 .button_on {
 	position: relative;
-	width:180px;
+	width:150px;
 	height:31px;
 	border-style:solid;
 	border-width:1px;
 	border-radius:4px;
 	border-color:#FFF;
-	background-color:#000;
+	background-color:#0271e1;
 	overflow:hidden;
 	padding-top:11px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
-	font-weight: 700;
-	font-size: 22px;
+	font-weight: 600;
+	font-size: 14px;
 	color:#FFF;
 	text-align: center;
 	margin-top:4px;
@@ -136,23 +169,21 @@ Inherits styles from: global/mobile/650w
 	transition: all 0.5s ease-in-out 0s;
 }
 .car_image1_small {
-	float:none;
 	position:absolute;
 	top:86px;
 	left:16px;
-	width:344px;
-	height:257px;
+	width:350px;
+	height:234px;
 	background-color:#CCC;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
 }
 .car_image2_small {
-	float:none;
 	position:absolute;
 	top:86px;
 	right:16px;
-	width:344px;
-	height:257px;
+	width:350px;
+	height:234px;
 	background-color:#CCC;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
@@ -183,7 +214,7 @@ Inherits styles from: global/mobile/650w
 }
 #car1_magnify_icon {
 	position:absolute;
-	top:303px;
+	top:280px;
 	left:16px;
 	width:40px;
 	height:40px;
@@ -192,7 +223,7 @@ Inherits styles from: global/mobile/650w
 }
 #car2_magnify_icon {
 	position:absolute;
-	top:303px;
+	top:280px;
 	right:16px;
 	width:40px;
 	height:40px;
@@ -258,12 +289,12 @@ Inherits styles from: global/mobile/650w
 	left:16px;
 	width:344px;
 	height:70px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
 	font-size: 19px;
 	line-height:16px;
-	color:#666;
+	color:#000;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -274,7 +305,7 @@ Inherits styles from: global/mobile/650w
 	right:16px;
 	width:344px;
 	height:70px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
 	font-size: 19px;
@@ -294,8 +325,9 @@ Inherits styles from: global/mobile/650w
 	margin-left:0px;
 	margin-right:0px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
 	text-align:center;
 	-webkit-transition: all 0.3s ease-in-out 0.2s;
 	transition: all 0.3s ease-in-out 0.2s;
@@ -311,8 +343,9 @@ Inherits styles from: global/mobile/650w
 	margin-left:0px;
 	margin-right:0px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
 	text-align:center;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
@@ -328,8 +361,9 @@ Inherits styles from: global/mobile/650w
 	margin-left:0px;
 	margin-right:0px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
 	text-align:center;
 	-webkit-transition: all 0.3s ease-in-out 0.2s;
 	transition: all 0.3s ease-in-out 0.2s;
@@ -345,8 +379,9 @@ Inherits styles from: global/mobile/650w
 	margin-left:0px;
 	margin-right:0px;
 	color:#000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
 	text-align:center;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
@@ -375,24 +410,23 @@ Inherits styles from: global/mobile/650w
 	transition: all 0.5s ease-in-out 0s;
 }
 .verdict_button_off {
-	float:none;
 	position: absolute;
 	top:0px;
-	left:308px;
+	left:309px;
 	width:120px;
 	height:27px;
 	background-color:#FFF;
 	border-style:solid;
 	border-width:1px;
 	border-radius:4px;
-	border-color:#CCC;
+	border-color:#0271e1;
 	overflow:hidden;
 	padding-top:10px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
-	font-weight: 700;
-	font-size: 19px;
-	color:#CCC;
+	font-weight: 600;
+	font-size: 14px;
+	color:#000;
 	text-align: center;
 	margin-top:4px;
 	margin-left:auto;
@@ -404,7 +438,6 @@ Inherits styles from: global/mobile/650w
 	opacity:0.7;
 }
 .verdict_button_on {
-	float:none;
 	position: absolute;
 	width:100%;
 	left:0px;
@@ -413,7 +446,7 @@ Inherits styles from: global/mobile/650w
 	background-color:#000;
 	overflow:hidden;
 	padding-top:11px;
-	font-family: "Guardian Sans Cond Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
 	font-size: 22px;
@@ -461,26 +494,27 @@ Inherits styles from: global/mobile/650w
 #verdict_copy {
 	float:none;
 	position:absolute;
-	left:30px;
+	left:10px;
 	bottom:16px;
-	width:646px;
+	width:555px;
 	height:auto;
 	padding-top:16px;
 	padding-bottom:16px;
 	padding-right:16px;
 	padding-left:16px;
-	background: rgba(225, 225, 225, .9);
 	color:#000000;
-	font-family: "Guardian Sans Cond Web", sans-serif;
-	font-size: 26px;
-	text-align:center;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	font-size: 15px;
+	text-align:left;
 }
 .mobile_subheader {
 	float:none;
 	position:absolute;
 	width:0px;
 	height:0px;
-	font-family: "Guardian Sans Web", sans-serif;
+	font-family: "Source Sans Pro,proxima-nova,Helvetica,Arial,sans-serif", sans-serif;
 	font-style: Bold;
 	font-weight: 700;
     font-size: 18px;
